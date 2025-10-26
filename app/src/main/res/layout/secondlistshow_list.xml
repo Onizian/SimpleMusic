@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_listshow"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/secondlayout_item_list">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/firstsonglist"
+        android:layout_margin="3dp"
+        android:id="@+id/iv_showlist"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:id="@+id/tv_showlist_name"
+            android:text="歌单名"
+            android:textColor="#53565c"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="简介"
+            android:id="@+id/tv_showlist_profile"
+            android:textColor="#53565c"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+    
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/ib_delete"
+        android:background="@drawable/remove"/>
+
+</LinearLayout>

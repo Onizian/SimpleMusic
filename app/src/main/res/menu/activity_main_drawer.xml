@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_musichome"
+            android:title="主页"/>
+        <item
+            android:id="@+id/nav_user"
+            android:title="个人中心"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:title="设置"/>
+        <item
+            android:id="@+id/nav_developerdeclare"
+            android:title="开发者声明"/>
+        <item
+            android:id="@+id/nav_useragree"
+            android:title="用户协议"/>
+        <item
+            android:id="@+id/nav_softversion"
+            android:title="软件版本"/>
+    </group>
+</menu>

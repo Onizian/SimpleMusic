@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_musichome">
+
+    <fragment
+        android:id="@+id/nav_musichome"
+        android:name="com.example.myapplication.ui.musichome.MusicHomeFragment"
+        android:label="@string/menu_musichome"
+        tools:layout="@layout/fragment_musichome"/>
+    <fragment
+        android:id="@+id/nav_user"
+        android:name="com.example.myapplication.ui.user.UserFragment"
+        android:label="@string/menu_user"
+        tools:layout="@layout/fragment_user"/>
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.myapplication.ui.setting.SettingFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_setting"/>
+    <fragment
+        android:id="@+id/nav_useragree"
+        android:name="com.example.myapplication.ui.useragree.UserAgreeFragment"
+        android:label="@string/menu_useragree"
+        tools:layout="@layout/fragment_useragree"/>
+    <fragment
+        android:id="@+id/nav_softversion"
+        android:name="com.example.myapplication.ui.softversion.SoftVersionFragment"
+        android:label="@string/menu_softversion"
+        tools:layout="@layout/fragment_softversion"/>
+    <fragment
+        android:id="@+id/nav_developerdeclare"
+        android:name="com.example.myapplication.ui.developerdeclare.DeveloperDeclareFragment"
+        android:label="@string/menu_developerdeclare"
+        tools:layout="@layout/fragment_developerdeclare"/>
+</navigation>

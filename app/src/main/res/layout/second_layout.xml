@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/second_linear"
+    android:layout_width="match_parent"
+    android:layout_height="460dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="13dp"
+    android:layout_marginRight="5dp"
+    android:layout_gravity="center"
+    android:background="@drawable/music_second_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="top"
+        android:id="@+id/second_linear_top">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="歌单列表"
+            android:textColor="#53565c" />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="4dp"
+            android:id="@+id/ib_createtable"
+            android:background="@drawable/create_musiclist"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="385dp"
+        android:layout_height="430dp"
+        android:layout_margin="8dp"
+        android:id="@+id/rv_secondlayout" />
+
+</LinearLayout>

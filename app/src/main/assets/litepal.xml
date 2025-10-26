@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--数据库名称-->
+    <dbname value="AllMusic" />
+    <!--数据库版本-->
+    <version value="19" />
+
+    <!--映射模型-->
+    <list>
+        <mapping class="com.example.myapplication.ui.musichome.POJO.MusicInfo"/>
+        <mapping class="com.example.myapplication.ui.musichome.POJO.MusicRankInfo"/>
+        <mapping class="com.example.myapplication.ui.musichome.POJO.MusicRecentInfo"/>
+        <mapping class="com.example.myapplication.ui.musichome.POJO.SongListInfo"/>
+        <mapping class="com.example.myapplication.ui.musichome.POJO.MusicListInfo"/>
+        <mapping class="com.example.myapplication.ui.user.POJO.User"/>
+    </list>
+</litepal>

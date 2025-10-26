@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">简单音乐</string>
+
+    <string name="menu_musichome">主页</string>
+    <string name="menu_useragree">用户协议</string>
+    <string name="menu_softversion">软件版本</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_developerdeclare">开发者声明</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_user">个人中心</string>
+
+    <string name="list_allmusic">所有歌曲</string>
+    <string name="list_rankmusic">播放排行</string>
+    <string name="list_recentmusic">最近播放</string>
+
+</resources>

@@ -114,7 +114,7 @@ app/
 
 如有问题或建议，请通过以下方式联系开发者：
 
-- GitHub: [yourusername](https://github.com/yourusername)
+- GitHub: [yourusername](https://github.com/onizian)
 
 ---
 
